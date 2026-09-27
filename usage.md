@@ -1,7 +1,14 @@
 # My usage and requirements
 
-The single source of truth for this household's loads and goals. Everything else in this repo
+The single source of truth for this office's loads and goals. Everything else in this repo
 (`README.md`, `countries/pakistan.md`, `sizing.py`) is sized from this page. Update it here first when something changes.
+
+## Site
+
+**Rented one‑bedroom apartment, used as an office.**
+- The system must be movable, and its installation reversible (landlord permission needed).
+- Solar is probably not possible (no roof access).
+- The electricity supply is likely small and single‑phase.
 
 ## Location
 
@@ -25,17 +32,19 @@ Summer peaks are 45–50 °C.
 - **Sources:** mains + solar, where solar is optional and can be switched off or added later.
 - **Everything running during a mains voltage drop:** ~5 kW average → ~20 kWh delivered → ~24 kWh battery.
 - **With load management during outages (~4 kW):** 16 kWh delivered → ~20 kWh battery.
-- **Headroom:** 12 kW inverter class, so future loads aren't limited.
+- **Headroom:** 8 kW now (2 inverters), which can grow to 12 kW by adding a third if moving to a bigger place.
 - **Open, local API:** for Home Assistant / AI‑driven automation.
 - **Priorities:** quality first, price second.
 
 ## Chosen system
 
 See [countries/pakistan.md → Final recommendation](countries/pakistan.md#final-recommendation-what-to-buy):
-3 × Victron MultiPlus‑II 48/5000 + Cerbo GX + 5 × Pylontech US5000 (24 kWh). The water dispenser
-fits within this with no change: ~21 kWh usable covers ~4 h at 5 kW, or ~6 h at the realistic ~3.35 kW.
+2 × Victron MultiPlus‑II 48/5000 + Cerbo GX + 5 × Pylontech US5000 (24 kWh), sized for a rented apartment office: ~21 kWh usable covers ~4 h at 5 kW, or ~6 h at the realistic ~3.35 kW.
 
 ## Still to confirm
+
+- Landlord's written permission, and whether the meter is in your name.
+- Roof access for solar (assumed none).
 
 - Supply type (single / three phase) and sanctioned load (kW) from the electricity bill.
 - Monthly units (kWh) from recent bills, needed later for sizing solar.
