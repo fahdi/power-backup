@@ -16,8 +16,8 @@ Summer peaks are 45–50 °C.
 | 2 ton inverter AC | 2400 | ~1350 | Same inverter‑compressor behaviour |
 | Desktop PC | 1500 | ~450 | 1500 W is the PSU rating; actual draw is usually 300–600 W |
 | Lights + fans | 500 | ~400 | |
-| Water dispenser (hot + cold) | ~600 | ~150 avg | Heater ~500 W and cooler ~100 W, both cycle on and off; check the rating plate |
-| **Total** | **~6800** | **~3350** | |
+| Gree water dispenser (hot + cold, e.g. GW‑JL500FS/FC) | ~700 | ~150 avg | 580 W heater + 110 W compressor cooler, both cycle on and off (JL500F: 550 + 100 W; JL400FS: 420 + 100 W) |
+| **Total** | **~6900** | **~3350** | |
 
 ## Requirements
 
@@ -39,5 +39,5 @@ fits within this with no change: ~21 kWh usable covers ~4 h at 5 kW, or ~6 h at 
 
 - Supply type (single / three phase) and sanctioned load (kW) from the electricity bill.
 - Monthly units (kWh) from recent bills, needed later for sizing solar.
-- The water dispenser's rating plate (W). If there is also a fridge, add it (~150–250 W running).
+- The exact Gree dispenser model. ~700 W assumes the JL500FS/FC, the highest of the common models.
 - Actual PC draw (a plug‑in watt meter will tell you).
