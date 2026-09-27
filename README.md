@@ -123,6 +123,39 @@ Run **Home Assistant** on a small PC/Raspberry Pi connected to the inverter and 
 - **Best value while still good quality:** Deye SUN‑8K‑SG05LP1 + ~20 kWh Deye/Pylontech battery.
 - Either way: **8 kW inverter, ~20 kWh LiFePO4 at 48 V, automatic load management to ~4 kW**,
   expandable to 25 kWh if you want to run everything unmanaged.
+- For future headroom, a **12 kW inverter with 24 kWh+** is worth the modest extra cost (see section 8).
+
+## 8. Why not a 12 kW inverter for future headroom?
+
+A 12 kW inverter is a reasonable choice, but know what it does and doesn't buy you.
+
+**The inverter sets how much you can run at once (kW). The battery sets how long it lasts (kWh).**
+A 12 kW inverter on a 20 kWh battery running 6.2 kW still lasts only about 3 hours.
+A bigger inverter only helps backup time if the battery grows with it.
+
+What 12 kW gets you:
+- No limit on running both ACs, the PC and lights together, even in summer heat, with room for another AC or a water pump later.
+- More solar input (a 12 kW hybrid accepts roughly 15 kWp of panels vs ~10 kWp on 8 kW).
+- Faster recharge from mains (up to ~240 A / ~12 kW on a Deye 12K).
+- The inverter runs at about 50 % load, so it stays cooler and lasts longer.
+
+What it costs you:
+- **Price:** about +US$ 600–900 for Deye (8K → 12K), or about +US$ 1,300–1,600 for Victron (a third MultiPlus‑II).
+- **Idle draw:** about 20–40 W more, which wastes roughly 0.5–1 kWh per day.
+- **Battery current:** 12 kW at 48 V is about 250 A. The battery bank must be rated for it: at least 4 × Pylontech US5000 / Deye SE‑G5.1 (100 A each).
+- **Wiring:** heavier DC cabling (95–120 mm²) and 300 A+ fuses or breakers.
+- **Grid limit:** charging at 12 kW while the house runs 6 kW means up to 18 kW from mains. That can trip your main breaker or exceed your sanctioned load. Set the inverter's grid input current limit to match your connection.
+
+Which way to go:
+
+| If you… | Choose |
+|---|---|
+| Plan more ACs, more than ~10 kWp of solar, or an EV within a few years | **12 kW now**: Deye SUN‑12K single‑phase 48 V hybrid, or 3 × Victron MultiPlus‑II 48/5000 (or Quattro 48/15000), with a battery of **24 kWh+** |
+| Only have today's loads | 8 kW, knowing both brands can be expanded later: add a second Deye 8K in parallel, or a third MultiPlus‑II (must be the same model and firmware) |
+
+**Updated recommendation:** if the budget allows, go 12 kW. The extra cost is modest compared with the battery, and it removes the
+inverter as a future bottleneck. Pair it with **24 kWh** (5 × 4.8–5.1 kWh modules), expandable to 30 kWh+.
+Keep automatic load shedding during outages anyway, because that is what stretches the battery.
 
 Installation checklist: proper DC breakers/fuses between battery and inverter, separate AC breakers
 for each AC, a PV DC isolator, correct cable sizing (48 V at 8 kW ≈ 170 A DC → 50–70 mm² cable),
