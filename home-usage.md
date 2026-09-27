@@ -4,9 +4,9 @@ A second site, separate from the office in [usage.md](usage.md). The system desi
 
 ## Site
 
-- **7 marla house, Umer Block, Bahria Town Phase 8 (Safari Valley), Rawalpindi.** Standard plot is 30 × 55 ft (1,650 sq ft).
+- **7 marla house in a private housing society, Islamabad/Rawalpindi area.** Plot is about 30 × 55 ft (1,650 sq ft).
 - Double storey; solar goes on the first‑floor roof.
-- **Three‑phase** supply. Electricity is distributed by Bahria Town (bought from IESCO).
+- **Three‑phase** supply. Electricity is distributed by the society (bought from IESCO).
 
 ## Loads
 
@@ -38,7 +38,7 @@ Notes:
 
 ## Still to confirm
 
-- Exact bylaw setbacks for the plot (from Bahria Town Rawalpindi's Design/Building Control office), and whether an **elevated solar structure** is allowed.
+- Exact bylaw setbacks for the plot (from the society's building control office), and whether an **elevated solar structure** is allowed.
 - Sanctioned load (kW) on the three‑phase connection.
 - Cooktop count and wattage, pump HP, air fryer model.
 - Whether the Kenwood ACs' Wi‑Fi app can be controlled locally (otherwise an IR blaster per room is used).

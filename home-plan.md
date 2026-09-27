@@ -1,17 +1,17 @@
 # Home: backup and solar plan
 
 For the loads in [home-usage.md](home-usage.md): **~29 kW rated, ~13 kW typical (~16.5 kW while cooking), three‑phase**,
-at a 7 marla house in Umer Block, Bahria Town Phase 8, Rawalpindi. Researched September 2026; prices are indicative, so get quotes.
+at a 7 marla house in a private housing society in the Islamabad/Rawalpindi area. Researched September 2026; prices are indicative, so get quotes.
 
 ## 1. Roof space (bylaws)
 
-Bahria Town Rawalpindi's official building bylaws could not be opened from here. The numbers below use the
-standard plot size and typical Bahria setbacks. **Confirm them with Bahria's Building Control / Design office before finalising.**
+The society's official building bylaws could not be opened from here. The numbers below use the
+plot size and typical setbacks. **Confirm them with the society's building control office before finalising.**
 
 | Item | Value | Basis |
 |---|---:|---|
-| Plot | 30 × 55 ft = 1,650 sq ft | Standard 7 marla plot in Umer Block |
-| Setbacks (assumed) | front ~10 ft, rear ~5 ft, sides 0 | Typical Bahria for this size (to confirm) |
+| Plot | 30 × 55 ft = 1,650 sq ft | Typical 7 marla plot |
+| Setbacks (assumed) | front ~10 ft, rear ~5 ft, sides 0 | Typical for this plot size (to confirm) |
 | First‑floor roof | ~30 × 40 ft ≈ 1,200 sq ft | Double storey, same footprint as ground |
 | Minus mumty (~120 sq ft), water tank (~40), 1.5 ft edge walkway | ≈ 850 sq ft usable | |
 
@@ -19,10 +19,10 @@ Panels: modern 585–620 W N‑type bifacial, about 2.3 × 1.13 m (~28–29 sq f
 
 | Mounting | Panels | Capacity | Status |
 |---|---:|---:|---|
-| **A. Low tilted rows on the roof slab** (10–15° tilt, spaced to avoid self‑shading) | 16–20 | **~10–12 kWp** | Normally allowed; still needs a Bahria‑registered installer |
-| **B. Elevated structure over the whole roof** (panels above mumty and tank) | 30–34 | **~18–20 kWp** | Only if Bahria approves. Bahria Lahore's bylaws ban rooftop structures, so check Rawalpindi's rule first |
+| **A. Low tilted rows on the roof slab** (10–15° tilt, spaced to avoid self‑shading) | 16–20 | **~10–12 kWp** | Normally allowed; still needs a society‑registered installer |
+| **B. Elevated structure over the whole roof** (panels above mumty and tank) | 30–34 | **~18–20 kWp** | Only if the society approves. Some societies ban rooftop structures, so check first |
 
-Rawalpindi gets about 4.5–5.5 peak sun hours a day. In summer heat, panels deliver ~75 % of their rating at noon.
+The Islamabad/Rawalpindi area gets about 4.5–5.5 peak sun hours a day. In summer heat, panels deliver ~75 % of their rating at noon.
 
 | | Option A (~11 kWp) | Option B (~19 kWp) |
 |---|---:|---:|
@@ -93,12 +93,12 @@ The inverter's built‑in Smart Load port only gives one or two steps. For a ful
 Restore when grid or solar returns: one load every ~2 minutes, in reverse order, to avoid a current surge.
 Inverter ACs also have their own restart delay.
 
-## 5. Bahria Town‑specific
+## 5. Housing‑society specific
 
-- **Registered installer only:** Bahria allows solar work only by installers registered with it. The system must stay
+- **Registered installer only:** the society allows solar work only by installers registered with it. The system must stay
   within the capacity approved in its **feasibility report**, and Tier‑1 equipment is required.
-- **Net metering in Bahria Rawalpindi is disputed.** Bahria announced a 30 % deduction on exported units, and NEPRA directed it
-  not to deduct. With new‑user buyback now only ~Rs 8–11/unit, **set the inverters to self‑consumption / zero export**
+- **Don't count on export income.** Societies that distribute their own power have disputed net‑metering credits
+  (e.g. announced deductions on exported units, contested at NEPRA). With new‑user buyback now only ~Rs 8–11/unit, **set the inverters to self‑consumption / zero export**
   and use the battery instead of exporting.
 - **Confirm the sanctioned load** of the three‑phase connection. Set the inverters' grid charge limit so charging plus house load stays under it.
 
@@ -116,18 +116,12 @@ Inverter ACs also have their own restart delay.
 
 ## 7. Next steps
 
-1. Ask Bahria Building Control for the exact setbacks, and whether an **elevated solar structure** is allowed. This decides option A or B.
+1. Ask the society's building control office for the exact setbacks, and whether an **elevated solar structure** is allowed. This decides option A or B.
 2. Get the sanctioned load from the electricity bill.
-3. Get 2–3 quotes from **Bahria‑registered installers** for this exact list (Nitrox 12K 3P × 2 in parallel, 8 × US5000).
+3. Get 2–3 quotes from **society‑registered installers** for this exact list (Nitrox 12K 3P × 2 in parallel, 8 × US5000).
 4. Install the two 2 ton standing ACs on their own circuits, placed per the phase plan above.
 
 Sources:
-- [Umer Block plot size (Safari Valley)](https://safarivalley.com/umerblock.php)
-- [Bahria plot listings (Zameen)](https://www.zameen.com/Plots/Rawalpindi_Bahria_Town_Phase_8_Umer_Block-3067-1.html)
-- [Bahria Lahore bylaws / rooftop structures](https://mfes.com.pk/solar-system-for-bahria-town-lahore/)
-- [Bahria net‑metering SOP](https://e-billingbahriatownlahore.com/E_BillingHistory/SOPs)
-- [Bahria Rawalpindi 30 % deduction (Daily Ausaf)](https://dailyausaf.com/en/business/net-metering-fraud-bahria-town-deducting-30-on-solar-net-metering/)
-- [NEPRA decision (Bahria & IESCO)](https://nepra.org.pk/consumer%20affairs/cad/Authority%20Decisions/IESCO/2024/TCD-13%20Bahria%20&%20IESCO%20Net%20Metering%20Units%2006-09-2024%2014031-37.PDF)
 - [Deye SUN‑12K‑SG04LP3 datasheet](https://www.deyeinverter.com/deyeinverter/2024/10/21/datasheet_sun-5-12k-sg04lp3_241021_en.pdf)
 - [Inverex Nitrox 12 kW 3‑phase price (W11stop)](https://w11stop.com/inverex-nitrox-12kw-hybrid-solar-inverter)
 - [Inverex Nitrox 12 kW 3‑phase (solarpanelprices.pk)](https://solarpanelprices.pk/product/inverex-nitrox-12-kw-48v-3-phase-dual-output-ip-65-hybrid-inverter-price-in-pakistan/)
