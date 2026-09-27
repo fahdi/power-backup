@@ -97,6 +97,36 @@ The site is a **rented one‑bedroom apartment used as an office**. That shapes 
 dealer, with the same Pylontech batteries. It's one wall‑mounted unit (IP65) with load shedding on the Smart Load port,
 and Home Assistant via RS485 Modbus.
 
+## Where to buy (searched September 2026)
+
+Listings found online; the websites could not be opened directly, so confirm stock, price and warranty by phone.
+
+**Pylontech US5000 batteries**: authorised dealers, 10‑year warranty (≥80 % capacity) when bought through them.
+- **AMS Security Vision**: says it has been an authorised Pylontech distributor since 2013, with offices in Lahore, Karachi and Islamabad. Serial numbers are verifiable on Pylontech's portal. [amsefence.com](https://amsefence.com/pylontech-lithium-battery-distributor-pakistan/)
+- **W11stop**: authorised dealer, delivers nationwide. [w11stop.com/pylontech](https://w11stop.com/pylontech)
+- **BatteryMax**: US5000 listed at Rs 255–275k. [batterymax.pk](https://www.batterymax.pk/pylontech-us5000-48v-100ah-4-8kwh-lithium-iron-phosphate-lifepo4-lfp-ups-and-solar-lithium-battery.html)
+- Also sold locally: the newer **Pylontech UF5000** (5.12 kWh, 10‑year warranty), e.g. [Sunsolar](https://sunsolar.pk/product/pylontech-uf5000-lithium-ion-battery/). Check compatibility with the chosen inverter before buying.
+- Insist on the original warranty card and check the serial numbers.
+
+**Inverex Nitrox 8 kW single‑phase 48 V (Deye‑made)**: IP65, dual output, 5‑year warranty.
+- Listed at roughly **Rs 360k–550k**; prices vary widely between dealers, so get several quotes.
+- Official Inverex site with dealer and service‑centre lists: [aptinverex.com/dealers](https://aptinverex.com/dealers/). Head office: Saddar, Karachi, UAN 021‑111‑209‑988.
+- Dealers found:
+  - [Solar Items](https://solaritems.pk/product/inverex-nitrox-8kw-hybrid-solar-inverter/)
+  - [solarinverters.pk](https://solarinverters.pk/product/inverex-nitrox-8kw-hybrid-solar-inverter-price-in-pakistan/)
+  - [Mehran Solar (solarprice.pk)](https://www.solarprice.pk/product/inverex-nitrox-8-kw-solar-inverter/)
+  - [Power Plus Generators, Karachi](https://powerplusgenerators.com.pk/product/inverex-nitrox-8-kw-48-v-solar-inverter-single-phase/)
+  - [Hajvery Solar](https://hajverysolar.com/top-authorized-inverex-inverter-dealers-in-pakistan/)
+- Confirm the dealer appears on Inverex's own dealer list.
+
+**Victron (MultiPlus‑II, Cerbo GX)**
+- No official Victron distributor or installer in Pakistan turned up.
+- Victron is only offered by cross‑border import sites such as [Ubuy](https://www.ubuy.com.pk/en/product/2MOPJCO-victron-energy-cerbo-gx-panels-and-system-monitoring) and [ShoppingDesk](https://shoppingdesk.pk/victron-energy-shopping-in-pakistan). Warranty there would mean shipping a unit abroad.
+- Check Victron's own list at [victronenergy.com/where-to-buy](https://www.victronenergy.com/where-to-buy) (it could not be opened from here).
+
+**What this means:** unless Victron's list shows a Pakistani distributor or installer near you, the Victron conditions above are not met.
+In that case, buy **Inverex Nitrox 8 kW + Pylontech US5000** from authorised dealers. That is quality hardware with a warranty that works in Pakistan.
+
 Sources: [Profit / Pakistan Today – net billing](https://profit.pakistantoday.com.pk/2026/02/10/pakistans-power-regulator-ends-net-metering-for-solar-consumers-shifts-to-net-billing-model/),
 [Solar Citizen – NEPRA 2026 rules](https://www.solarcitizen.com.pk/nepra-prosumer-regulations-2026/),
 [BatteryMax – Pylontech US5000](https://www.batterymax.pk/pylontech-us5000-48v-100ah-4-8kwh-lithium-iron-phosphate-lifepo4-lfp-ups-and-solar-lithium-battery.html),
