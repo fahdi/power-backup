@@ -164,7 +164,7 @@ Keep automatic load shedding during outages anyway, because that is what stretch
 
 ## 9. Country-specific advice
 
-The recommendations above are country‑neutral. Where you buy, the local distributor, prices, grid rules and climate can change the pick, so each country has its own page in [`countries/`](countries/):
+The recommendations above are country‑neutral. Where you buy, the local distributor, prices, grid rules and climate can change the pick, so each country has its own page in [`countries/`](countries/README.md):
 
 - [Pakistan](countries/pakistan.md)
 

@@ -1,0 +1,5 @@
+title: Power Backup
+description: Inverter, battery and solar plans for an office and a home in Pakistan
+theme: jekyll-theme-cayman
+exclude:
+  - sizing.py

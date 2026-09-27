@@ -1,6 +1,6 @@
-# <Country>: country-specific advice
+# [Country]: country-specific advice
 
-Researched <month year>. Read this alongside the [main recommendation](../README.md); this page
+Researched [month year]. Read this alongside the [main recommendation](../README.md); this page
 covers only what differs locally.
 
 ## Authorised distributors and warranty
