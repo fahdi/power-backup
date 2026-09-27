@@ -4,6 +4,8 @@ Goal: a hybrid system that runs from **mains and solar (solar optional / can be 
 gives **4 hours of backup per day**, and has an **open, local API** so it can be automated
 (Home Assistant / AI‑driven energy management). Priority: **quality first, price second**.
 
+> **Final pick for Pakistan (what to buy):** see [countries/pakistan.md](countries/pakistan.md#final-recommendation-what-to-buy).
+
 ---
 
 ## 1. Load analysis
