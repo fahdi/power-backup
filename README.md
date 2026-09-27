@@ -4,6 +4,8 @@ Goal: a hybrid system that runs from **mains and solar (solar optional / can be 
 gives **4 hours of backup per day**, and has an **open, local API** so it can be automated
 (Home Assistant / AI‑driven energy management). Priority: **quality first, price second**.
 
+> **My loads and requirements:** see [usage.md](usage.md).
+
 > **Final pick for Pakistan (what to buy):** see [countries/pakistan.md](countries/pakistan.md#final-recommendation-what-to-buy).
 
 ---
@@ -16,11 +18,12 @@ gives **4 hours of backup per day**, and has an **open, local API** so it can be
 | 2 ton inverter AC | 2400 | ~1300–1400 | Same inverter‑compressor behaviour |
 | Desktop PC | 1500 | 300–600 | 1500 W is usually the PSU rating, not the actual draw |
 | Lights + fans | 500 | 300–500 | |
-| **Total** | **6200** | **~3000–3500** | |
+| Water dispenser (hot + cold) | ~600 | ~150 avg | Heater ~500 W and cooler ~100 W cycle on and off |
+| **Total** | **~6800** | **~3200–3700** | |
 
 Key points:
 
-- **Peak (everything at full power): 6.2 kW.** The inverter must be able to carry this, with
+- **Peak (everything at full power): ~6.8 kW.** The inverter must be able to carry this, with
   headroom for heat derating (inverters are rated at 25 °C; at 40 °C+ they lose 10–20 %).
 - **Inverter ACs have soft‑start**, so there is no large motor surge — good for battery inverters.
 - **Low mains voltage** only matters while on grid. When the voltage sags, the ACs pull more
@@ -36,7 +39,7 @@ Losses to account for: inverter efficiency (~92 %) and usable depth of discharge
 |---|---:|---:|---:|
 | A. No load management | 5.0 kW | 20 kWh | **~24 kWh** |
 | B. Managed to 4 kW (shed/limit one AC) | 4.0 kW | 16 kWh | **~19–20 kWh** |
-| C. Realistic after ACs settle | ~3.2 kW | ~13 kWh | ~15–16 kWh |
+| C. Realistic after ACs settle | ~3.4 kW | ~13.5 kWh | ~16–17 kWh |
 
 **Recommendation: ~20 kWh nominal LiFePO4 at 48 V, with automatic load management (scenario B),
 in a modular battery that can be expanded to 25 kWh later.** Your 16 kWh figure is the *usable*
@@ -49,7 +52,7 @@ must refill 16–20 kWh quickly from mains. Aim for **≥150 A (~7–8 kW) of ch
 
 ## 3. Inverter size
 
-**8 kW class, 48 V, single‑phase hybrid** (grid + solar + battery). This carries the 6.2 kW
+**8 kW class, 48 V, single‑phase hybrid** (grid + solar + battery). This carries the ~6.8 kW
 peak with headroom in a hot room, while load management keeps battery draw at ~4 kW during outages.
 A 5 kW inverter would be at its limit and would derate in summer.
 
@@ -132,7 +135,7 @@ Run **Home Assistant** on a small PC/Raspberry Pi connected to the inverter and 
 A 12 kW inverter is a reasonable choice, but know what it does and doesn't buy you.
 
 **The inverter sets how much you can run at once (kW). The battery sets how long it lasts (kWh).**
-A 12 kW inverter on a 20 kWh battery running 6.2 kW still lasts only about 3 hours.
+A 12 kW inverter on a 20 kWh battery running 6.8 kW still lasts only about 2.5–3 hours.
 A bigger inverter only helps backup time if the battery grows with it.
 
 What 12 kW gets you:

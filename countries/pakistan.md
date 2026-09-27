@@ -40,7 +40,7 @@ Existing net‑metering agreements keep their old rate until they expire.
 
 ## Final recommendation (what to buy)
 
-Based on the stated load: 6.2 kW peak, ~4 kW managed, 4 h backup per day, quality first, open API.
+Based on [my usage](../usage.md): ~6.8 kW peak, ~4 kW managed, 4 h backup per day, quality first, open API.
 
 **Buy the Victron system:**
 

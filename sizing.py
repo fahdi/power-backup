@@ -10,6 +10,7 @@ LOADS = {
     "2 ton AC": (2400, 1350),
     "Desktop PC": (1500, 450),
     "Lights + fans": (500, 400),
+    "Water dispenser (hot + cold)": (600, 150),
 }
 
 BACKUP_HOURS = 4
