@@ -191,6 +191,25 @@ several brands) provide the forecasting and scheduling.
 Rule of thumb: prefer a brand with **local Modbus/MQTT**. Cloud‑only APIs break when the internet or the vendor's cloud goes down,
 which is exactly when an outage controller is needed most.
 
+### Best API for building your own UI and appliances
+
+1. **Victron (Cerbo GX / Venus OS): the best API.**
+   - Local **MQTT** exposes every value and setting (read and write), updated about every second.
+   - There is also **Modbus‑TCP** with a published register list.
+   - Venus OS is open source, and you can run your own code on the GX itself (Python, Node‑RED).
+   - The optional VRM cloud API is documented.
+   - Downsides: no official distributor in Pakistan, and roughly twice the hardware cost. The home would need
+     6 × MultiPlus‑II 48/5000 (2 per phase) for ~24 kW.
+2. **Deye / Inverex Nitrox: second best, and the practical choice in Pakistan.**
+   - Modbus RS485 with a register map that is widely documented and used by open‑source projects.
+   - Readings every few seconds, and writes are supported: work mode, time‑of‑use charging, charge current, Smart Load.
+   - Put a small **ESPHome RS485 bridge** (ESP32 + RS485 module, a few thousand rupees) on it that publishes to MQTT.
+     You then get a Victron‑like local MQTT API without relying on the Wi‑Fi logger or the cloud.
+
+**Suggested architecture:** inverter → local bridge (Venus OS MQTT, or ESPHome RS485 for Deye) → **MQTT broker** →
+your UI, your appliance controllers (ESPHome/ESP32 relays, IR blasters) and the optimiser (EMHASS or your own).
+Everything stays local, so it keeps working during internet outages. Home Assistant is optional, as a ready‑made layer on the same broker.
+
 Installation checklist: proper DC breakers/fuses between battery and inverter, separate AC breakers
 for each AC, a PV DC isolator, correct cable sizing (48 V at 8 kW ≈ 170 A DC → 50–70 mm² cable),
 earthing, and installation in a ventilated, shaded spot.
