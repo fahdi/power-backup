@@ -183,7 +183,7 @@ several brands) provide the forecasting and scheduling.
 | **Huawei SUN2000** | Modbus‑TCP (via inverter Wi‑Fi or SDongle) | huawei_solar; Predbat | Very reliable, widely sold in Pakistan; battery must be Huawei LUNA |
 | **GoodWe** | Local UDP/Modbus | GoodWe integration is built into Home Assistant | Solid mid‑tier |
 | **Sungrow SH** | Modbus‑TCP (via WiNet‑S) | Community Modbus config (Sungrow‑SHx) | Good quality; battery must be Sungrow SBR |
-| **Solis** | Modbus RS485 / TCP | solis_modbus; Predbat | Good value |
+| **Solis** | Modbus RS485 / TCP (use your own RS485 bridge; logger firmware updates have closed local Modbus) | solis_modbus, solax_modbus; Predbat | Tier‑1 build, good value; three‑phase 48 V up to 15 kW per unit |
 | **Growatt** | Modbus RS485; local logger interception | Grott (open source) | Budget‑friendly; cloud API also exists |
 | **SolarEdge / Fronius / SMA** | Modbus‑TCP (SunSpec); Fronius also has a local JSON API | solaredge_modbus_multi; Fronius and SMA are built in | Premium grid‑tie brands; hybrid/backup options are limited or costly in Pakistan |
 | Voltronic‑based (Axpert clones, e.g. Inverex Veyron) | Serial protocol | voltronic‑mqtt, Solar Assistant | Works, but lower build quality (see section 4) |

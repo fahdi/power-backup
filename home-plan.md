@@ -57,6 +57,14 @@ Refill between outages comes from solar in the day, or from the grid at up to ~1
 - Open API: RS485 / Modbus → Home Assistant (e.g. the open‑source ha‑solarman integration).
 - Price: **~Rs 550–745k each** (listings, June–Sept 2026).
 
+**Strong alternative: 2 × Solis S6‑EH3P15K02‑NV‑YD‑L (three‑phase, 48 V, 15 kW each) = ~30 kW.**
+- Backup port rated at the full 15 kW, with 2× surge for 10 s and <10 ms switchover.
+- Up to 290 A battery charge/discharge per unit; supports unbalanced three‑phase loads.
+- About **Rs 625k each** in Pakistan.
+- API: documented Modbus RS485, with open‑source Home Assistant integrations (solis_modbus, solax_modbus) and Predbat support.
+- Use your own RS485‑to‑Ethernet/MQTT bridge. Solis Wi‑Fi dataloggers have stopped serving local Modbus after firmware updates.
+- Confirm with the dealer: the maximum number of parallel units, and the per‑phase output limit (about 22.8 A ≈ 5.2 kW per phase per unit).
+
 The ~29 kW all‑on rating exceeds 24 kW on paper. In practice, all ACs don't run their compressors flat‑out together,
 and the priority controller below keeps the total under ~22 kW.
 
