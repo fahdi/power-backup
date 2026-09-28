@@ -170,6 +170,27 @@ The recommendations above are country‑neutral. Where you buy, the local distri
 
 To add a country, copy [`countries/TEMPLATE.md`](countries/TEMPLATE.md).
 
+## 10. Other brands you can automate ("AI‑ready")
+
+What matters is a **local** interface (no cloud needed) with an open‑source Home Assistant integration. On top of that,
+the optimisers **EMHASS** (works with any inverter Home Assistant can read and control) or **Predbat** (built‑in support for
+several brands) provide the forecasting and scheduling.
+
+| Brand | Local interface | Open‑source Home Assistant integration | Notes |
+|---|---|---|---|
+| **Victron** | MQTT, Modbus‑TCP, Node‑RED on the GX | Built‑in Victron integration, Venus OS itself is open source | Most open; thin support in Pakistan |
+| **Deye / Sunsynk / Inverex Nitrox** | Modbus RS485 (via Wi‑Fi logger or RS485 adapter) | ha‑solarman; Predbat (Sunsynk) | Best local availability |
+| **Huawei SUN2000** | Modbus‑TCP (via inverter Wi‑Fi or SDongle) | huawei_solar; Predbat | Very reliable, widely sold in Pakistan; battery must be Huawei LUNA |
+| **GoodWe** | Local UDP/Modbus | GoodWe integration is built into Home Assistant | Solid mid‑tier |
+| **Sungrow SH** | Modbus‑TCP (via WiNet‑S) | Community Modbus config (Sungrow‑SHx) | Good quality; battery must be Sungrow SBR |
+| **Solis** | Modbus RS485 / TCP | solis_modbus; Predbat | Good value |
+| **Growatt** | Modbus RS485; local logger interception | Grott (open source) | Budget‑friendly; cloud API also exists |
+| **SolarEdge / Fronius / SMA** | Modbus‑TCP (SunSpec); Fronius also has a local JSON API | solaredge_modbus_multi; Fronius and SMA are built in | Premium grid‑tie brands; hybrid/backup options are limited or costly in Pakistan |
+| Voltronic‑based (Axpert clones, e.g. Inverex Veyron) | Serial protocol | voltronic‑mqtt, Solar Assistant | Works, but lower build quality (see section 4) |
+
+Rule of thumb: prefer a brand with **local Modbus/MQTT**. Cloud‑only APIs break when the internet or the vendor's cloud goes down,
+which is exactly when an outage controller is needed most.
+
 Installation checklist: proper DC breakers/fuses between battery and inverter, separate AC breakers
 for each AC, a PV DC isolator, correct cable sizing (48 V at 8 kW ≈ 170 A DC → 50–70 mm² cable),
 earthing, and installation in a ventilated, shaded spot.
